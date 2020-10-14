@@ -13,9 +13,6 @@
         name: lo3
         ipv4: 10.0.0.1.3/30
     - name: Set loopback IPv6 address
-       ios_l3_interface:
-         name: lo6
-         ipv6: 2001:db8:10::3/64
     - name: Set Ethernet0/1 IPv4 address
       ios_l3_interface:
         name: Ethernet0/2
